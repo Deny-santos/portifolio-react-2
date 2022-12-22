@@ -31,19 +31,17 @@ html {
 ::-webkit-scrollbar {
     display: none;
 }
-
+.app__wrapp {
+    min-height: 100vh;
+    width: 100%;
+    
+}
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
 }
-
-/* .app__wrapp {
-    height: inherit;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.767);
-} */
 
 .container {
     width: var(--container-width-lg);
@@ -60,6 +58,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    /* height: 100vh; */
 }
 
 section > h2, section >  h5 {
@@ -125,7 +124,7 @@ img {
 
 /* ========= medias queries phone devices =========== */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
     }

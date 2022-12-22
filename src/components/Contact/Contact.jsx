@@ -1,9 +1,11 @@
 import React from 'react'
 import "./Contact.css"
+import AppWrapp from '../../wrapp/AppWrapp'
+
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <section>Contact</section>
   )
 }
 
-export default Contact
+export default AppWrapp(Contact, 'contact')

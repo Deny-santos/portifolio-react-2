@@ -2,7 +2,8 @@ import React from 'react'
 import "./Header.css"
 import CTA from './CTA'
 import HeaderSocial from './HeaderSocial'
-import { perfilPNG } from "../../assets"
+import { perfilPNGCom } from "../../assets"
+import AppWrapp from '../../wrapp/AppWrapp'
 
 const Header = () => {
   return (
@@ -15,7 +16,7 @@ const Header = () => {
         <HeaderSocial/>
 
         <div className="me">
-          <img src={perfilPNG} alt="me" />
+          <img src={perfilPNGCom} alt="me" />
         </div>
 
         <div className='scroll_wrapp'>
@@ -27,4 +28,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default AppWrapp(Header, "header")

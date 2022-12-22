@@ -1,10 +1,11 @@
 import React from 'react'
 import "./Services.css"
+import appWrapp from "../../wrapp/AppWrapp"
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <section>Services</section>
   )
 }
 
-export default Services
+export default appWrapp(Services, "services")

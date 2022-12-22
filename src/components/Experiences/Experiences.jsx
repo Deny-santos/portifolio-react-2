@@ -1,10 +1,14 @@
 import React from 'react'
 import "./Experiences.css"
+import AppWrapp from '../../wrapp/AppWrapp'
 
 const Experiences = () => {
   return (
-    <div>Experiences</div>
+    <section>Experiences
+      <a href="">aaaaaaaaaaaaa</a>
+      <p>aaaaaaaa</p>
+    </section>
   )
 }
 
-export default Experiences
+export default AppWrapp(Experiences, 'experience')

@@ -1,10 +1,11 @@
 import React from 'react'
 import "./Portifolio.css"
+import AppWrapp from '../../wrapp/AppWrapp'
 
 const Portifolio = () => {
   return (
-    <div>Portifolio</div>
+    <section>Portifolio</section>
   )
 }
 
-export default Portifolio
+export default AppWrapp(Portifolio, "portifolio")

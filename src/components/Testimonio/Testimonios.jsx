@@ -1,9 +1,10 @@
 import React from 'react'
+import AppWrapp from '../../wrapp/AppWrapp'
 
 const Testimonios = () => {
   return (
-    <div>Testimonios</div>
+    <section>Testimonios</section>
   )
 }
 
-export default Testimonios
+export default AppWrapp(Testimonios, "testimonial")

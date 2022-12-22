@@ -2,6 +2,7 @@ header {
     height: 105vh;
     padding-top: 3rem;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .header__container {
@@ -98,8 +99,8 @@ header {
     }
     .me {
         padding: 0;
-        max-width: 99%;
-        
+        max-width: 90%;
+        margin: 2rem auto;
     }
     .me img {
      margin-top: 50px;

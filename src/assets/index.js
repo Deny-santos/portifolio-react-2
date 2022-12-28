@@ -1,19 +1,26 @@
 import CV from "./cv.pdf"
 
-import perfilPNG from "./perfil-deny.png"
 import perfilPNGCom from "./perfil-denyCom.png"
+import portifolio2 from "./portifolio2.png"
 
-import perfil from "./perfil.jpeg"
+import portifolio1 from "./portifolio1.jpg"
+import apiTempo from "./apiTempo.jpg"
+import car from "./denyCar.jpg"
+import login from "./login.jpg"
+import voice from "./voiceRecognation.jpg"
+
 import perfilcom from "./perfilCom.jpeg"
 
 
 
 export {
     CV,
-    perfilPNG,
     perfilPNGCom,
-    perfil,
     perfilcom,
-
-
+    portifolio1,
+    portifolio2,
+    apiTempo,
+    car,
+    login,
+    voice,
 }

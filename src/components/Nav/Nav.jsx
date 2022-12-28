@@ -13,7 +13,7 @@ const Nav = () => {
   }
   return (
     <nav>
-        {["header", "about", "experience", "services", "contact"].map((component, index) => (
+        {["header", "about", "experience", "portifolio", "contact"].map((component, index) => (
           <a 
             key={index} 
             href={`#${component}`}

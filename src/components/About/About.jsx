@@ -2,7 +2,8 @@ import React from 'react'
 import "./About.css"
 import AppWrapp from '../../wrapp/AppWrapp'
 import { perfilcom } from "../../assets"
-import { values } from "./Values"
+import { abouts } from "./Values"
+import { ImQuotesLeft, ImQuotesRight } from "react-icons/im"
 
 const About = () => {
   return (
@@ -19,15 +20,15 @@ const About = () => {
 
           <div className="about__content">
               <div className="about__cards">
-                {[values.experience, values.tec, values.projects].map((element, index) => (
+                {abouts.map((element, index) => (
                   <article  key={element+index} className='about__card'>
-                        {element.icon}
-                        <h5>{element.title}</h5>
-                        <small>{element.description}</small>
-                      </article>
+                    {element.icon}
+                    <h5>{element.title}</h5>
+                    <small>{element.description}</small>
+                  </article>
                 ))}
               </div>
-            <p>iusto nam blanditiis ducimus rerum totam autem facere ullam, eius delectus non. Quod ipsum magni eum mollitia?</p>
+            <p><ImQuotesLeft/> Tecnología é o meu hobby, Programação é minha paixão estou a disposição de novas oportunidades, Estagio, Freelancer, Efetivo.. Clique no botão abaixo e entre e  contato comigo <ImQuotesRight/></p>
             <a className='btn btn-primary' href="#contact">Fale Comigo</a>
           </div>
       </div>

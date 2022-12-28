@@ -45,14 +45,17 @@ header {
     height: 30rem;
     position: absolute;
     left:  calc(50% - 10.5rem);
+    margin: 4rem auto 0 auto !important;
     border-radius: 12rem 12rem 0 0;
     margin-top: 4rem;
     overflow: hidden;
-    padding: 0 1.5rem 1.5rem 1.5rem;
- 
+    padding: 0 1.5rem 0 1.5rem;
 }
+
 .me img {
     margin-top: -20px;
+
+    margin-top: 70px;
 }
 
 /* =============== scroll down ================== */
@@ -100,10 +103,11 @@ header {
     .me {
         padding: 0;
         max-width: 90%;
-        margin: 2rem auto;
+        margin: 2rem auto 1rem auto !important;
     }
     .me img {
-     margin-top: 50px;
+    margin-top: 70px;
+
     }
 
 

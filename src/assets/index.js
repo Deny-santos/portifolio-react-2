@@ -2,6 +2,7 @@ import CV from "./cv.pdf"
 
 import perfilPNGCom from "./perfil-denyCom.png"
 import portifolio2 from "./portifolio2.png"
+import astronomy from "./astronomy.png"
 
 import portifolio1 from "./portifolio1.jpg"
 import apiTempo from "./apiTempo.jpg"
@@ -23,4 +24,5 @@ export {
     car,
     login,
     voice,
+    astronomy
 }

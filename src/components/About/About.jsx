@@ -28,7 +28,7 @@ const About = () => {
                   </article>
                 ))}
               </div>
-            <p><ImQuotesLeft/> Tecnología é o meu hobby, Programação é minha paixão estou a disposição de novas oportunidades, Estagio, Freelancer, Efetivo.. Clique no botão abaixo e entre e  contato comigo <ImQuotesRight/></p>
+            <p><ImQuotesLeft/> Tecnología é o meu hobby, Programação é minha paixão estou a disposição de novas oportunidades, Estágio, Freelancer, Efetivo.. Clique no botão abaixo e entre em  contato comigo <ImQuotesRight/></p>
             <a className='btn btn-primary' href="#contact">Fale Comigo</a>
           </div>
       </div>

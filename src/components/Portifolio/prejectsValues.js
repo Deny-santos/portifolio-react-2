@@ -1,11 +1,11 @@
-import { portifolio1, portifolio2, apiTempo, car, login, voice } from "../../assets/"
+import { portifolio1, portifolio2, apiTempo, astronomy, login, voice } from "../../assets/"
 
 const values = {
     site1: {
-        img: portifolio1,
-        titulo: "Portifolio em React",
-        linkToGit: "https://github.com/Deny-santos/portifolio-fullstack-1",
-        linkToShowProject: "https://portifolio-deny.netlify.app/"
+        img: astronomy,
+        titulo: "Site De Astronomía",
+        linkToGit: "https://github.com/Deny-santos/whatsbeyond",
+        linkToShowProject: "https://astronomy-deny.netlify.app/"
     },
     site2: {
         img: portifolio2,
@@ -20,10 +20,10 @@ const values = {
         linkToShowProject: "https://deny-santos.github.io/tempo/"
     },
     site4: {
-        img: car,
-        titulo: "Site De Carros",
-        linkToGit: "https://github.com/Deny-santos/deny-sport-car",
-        linkToShowProject: "https://deny-santos.github.io/deny-sport-car/"
+        img: portifolio1,
+        titulo: "Portifolio em React",
+        linkToGit: "https://github.com/Deny-santos/portifolio-fullstack-1",
+        linkToShowProject: "https://portifolio-deny.netlify.app/"
     },
     site5: {
         img: login,

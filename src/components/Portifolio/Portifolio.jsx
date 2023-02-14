@@ -12,7 +12,7 @@ const Portifolio = () => {
 
       <div className="container portfolio__container">
         {sites.map((site, index) => (
-          <article className="portfolio__item">
+          <article key={index+site} className="portfolio__item">
             <div className="portfolio__item-img">
               <img src={site.img} alt="" />
             </div>

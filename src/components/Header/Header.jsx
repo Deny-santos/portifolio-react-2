@@ -4,6 +4,7 @@ import CTA from './CTA'
 import HeaderSocial from './HeaderSocial'
 import { perfilPNGCom } from "../../assets"
 import AppWrapp from '../../wrapp/AppWrapp'
+import Typical from 'react-typical'
 
 const Header = () => {
   return (
@@ -11,7 +12,7 @@ const Header = () => {
       <div className="container header__container">
         <h5>Olá, Sou O </h5>
         <h1>Deny Santos</h1>
-        <h5 className="text-light">Desenvolvedor Web Frontend</h5>
+        <h5 className="text-light"><Typical loop={Infinity} steps={["Desenvolvedor Web Frontend", 1000, "Apaixonado Por Tecnología"]} /></h5>
         <CTA/>
         <HeaderSocial/>
 

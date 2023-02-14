@@ -13,15 +13,15 @@ const front = {
     },
     typescript: {
       title: "Typescript",
-      description: "Basico"
+      description: "Intermediário"
     },
     bootstrap: {
       title: "Bootstrap",
-      description: "Intermediario"
+      description: "Intermediário"
     },
-    tailwind: {
-      title: "Tailwind.css",
-      description: "Basico"
+    styled: {
+      title: "Styled Components",
+      description: "Avançado"
     },
     react: {
       title: "React JS",
@@ -36,11 +36,11 @@ const front = {
 const back = {
     php: {
         title: "PHP",
-        description: "Intermediario"
+        description: "Intermediário"
     },
     node: {
         title: "Node JS",
-        description: "Basico"
+        description: "Intermediário"
     },
     mysql: {
         title: "Mysql",
@@ -52,5 +52,5 @@ const back = {
     },
   }
 
-export const experiencesFront = [front.html, front.css, front.javascript,front.typescript, front.react, front.bootstrap, front.tailwind]
+export const experiencesFront = [front.html, front.css, front.javascript,front.typescript, front.react, front.bootstrap, front.styled]
 export const experiencesBack = [back.node, back.php, back.mysql, back.laravel]
